@@ -7,4 +7,14 @@ This lambda function will help you to create a snapshot of your EC2 instance vol
 
 There will be 3 files as below 
 
-#  
+# EC2BackupLamda.py
+
+This our main python file which we will execute to create a snapshot
+
+# event.json
+
+This file will contains our VolumeIds which the lambda function will take a snapshot from 
+
+# Template.yaml 
+
+This contains information related to AWS for our Lambda function
