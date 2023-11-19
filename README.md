@@ -2,7 +2,7 @@
 
 # Prerequisites for EC2 Backup through Lambda 
 - Python 3.9
-- Role with EC2 Full Access for our lambda function ( can be modified to be more fine grained access with permissions of describe EC2, volumes & create a snapshot of the volume.
+- Lambda function with Role of EC2 Full Access for our lambda function ( can be modified to be more fine grained access with permissions of describe EC2, volumes & create a snapshot of the volume.
 - IDE ( used cloud9 to develop this code )
 
 # EC2 Lambda Backup
