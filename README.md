@@ -1,9 +1,9 @@
 # AWS-SDK-Python
 
-# Prerequisites 
-Python 3.9
-Role with EC2 Full Access for our lambda function ( can be modified to be more fine grained access with permissions of describe EC2, volumes & create a snapshot of the volume.
-IDE ( used cloud9 to develop this code )
+# Prerequisites for EC2 Backup through Lambda 
+- Python 3.9
+- Role with EC2 Full Access for our lambda function ( can be modified to be more fine grained access with permissions of describe EC2, volumes & create a snapshot of the volume.
+- IDE ( used cloud9 to develop this code )
 
 # EC2 Lambda Backup
 ![alt text](https://github.com/Muhammedashraf10/AWS-SDK-Python/blob/main/lambda-ec2-snapshot/ec2-snapshot-lambda.drawio.png?raw=true)
