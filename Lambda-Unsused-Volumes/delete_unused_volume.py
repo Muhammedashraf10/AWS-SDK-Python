@@ -16,7 +16,7 @@ email_body = """
         <html>
             <head></head>
             <h1 style='text_aligned:center'>Unused Volumes in your account </h1>
-            <p style='color:red'>below list contains the unused volumes </p>
+            <p style='color:red'>below list contains the unused & deleted volumes into your account </p>
         </html>
     """
 for vol in unused_volumes:
