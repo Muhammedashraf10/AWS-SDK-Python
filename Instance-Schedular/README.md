@@ -11,7 +11,7 @@
 # EC2 Schedular V2 ( With SES Notification )
 ![alt text](https://github.com/Muhammedashraf10/AWS-SDK-Python/blob/main/Instance-Schedular/Lambda-EC2-SchedularV2.png?raw=true)
 
-This lambda function will help you to Schedular start & stop the EC2 instance based on the trigger pattern of the EventBridge
+This lambda function will help you to Schedular start & stop the EC2 instance based on the trigger pattern of the EventBridge, The lambda function checks for the tags you have defined and list these instances, then it take either start or stop action based on the current instance state.
 
 The solution is available with two options ( with and without sending email notification with the instance Ids )
 
