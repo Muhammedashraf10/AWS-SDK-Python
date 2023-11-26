@@ -56,7 +56,7 @@ response = ses_client.send_email(
                 },
                 "Subject":{
                         "Charset":CHARSET,
-                        "Data": "This email address notify you with the unused volumes into your account"
+                        "Data": "This email address notify you with the Instance Id which Schedular took action on into your account"
                     }
                 },
                 Source = "xxxxx@yyyy.com"
