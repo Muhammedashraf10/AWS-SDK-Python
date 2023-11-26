@@ -14,11 +14,11 @@ try:
     for instance in instances:
         if instance.state['Name'] == 'stopped':
             print(instance.state['Name']) # print the instance id & type 
-            instance.start() #stop the instances with the tag Type: Scheduled
+            instance.start() #start the instances with the tag Type: Scheduled
             print('Instance started successfully')
         elif instance.state['Name'] == 'running':
             print(instance.id, instance.instance_type)
-            instance.stop()
+            instance.stop() #stop the instances with the tag Type: Scheduled
             print('Instance stopped successfully')
         else:
             print("Unexpected Error")
