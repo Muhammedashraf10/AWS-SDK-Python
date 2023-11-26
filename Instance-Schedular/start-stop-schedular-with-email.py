@@ -25,13 +25,13 @@ try:
     for instance in instances:
         if instance.state['Name'] == 'stopped':
             print(instance.state['Name']) # print the instance id & type 
-            instance.start() #stop the instances with the tag Type: Scheduled
+            instance.start() #start the instances with the tag Type: Scheduled
             total_instances.append(instance.id)
             email_body = email_body + "InstanceId Started {} \n".format(instance.id)
             print('Instance started successfully')
         elif instance.state['Name'] == 'running':
             print(instance.id, instance.instance_type)
-            instance.stop()
+            instance.stop() #stop the instances with the tag Type: Scheduled
             total_instances.append(instance.id)
             email_body = email_body + "InstanceId Stopped {} \n".format(instance.id)
             print('Instance stopped successfully')
